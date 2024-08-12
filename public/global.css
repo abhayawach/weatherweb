@@ -1,0 +1,23 @@
+
+
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-lgi: 19px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --color-black: #000;
+
+  /* Border radiuses */
+  --br-7xl: 26px;
+}
