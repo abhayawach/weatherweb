@@ -3,7 +3,7 @@ const path = require("path")
 const hbs = require("hbs")
 const { Script } = require("vm")
 const app = express()
-const port = 1000
+const port = process.env.PORT || 1000
 
 const staticpath = path.join(__dirname,"../public")
 const templatespath = path.join(__dirname, "../templates/views")
